@@ -1,0 +1,16 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+.router-link-active {
+    color: darkgreen;
+}
+
+.router-link-exact-active {
+    color: darkolivegreen;
+}
+.rating-active:before {
+    content: "\2605";
+    position: absolute;
+}

@@ -1,0 +1,58 @@
+{
+  "products":[
+    {
+      "id": 1001,
+      "title": "盖县大苹果",
+      "description": "每袋 <em>25</em> 公斤，过年送礼必备。",
+      "price": 750,
+      "image": "static/images/green-apple.png",
+      "availableInventory": 5,
+      "rating": 1
+    },
+    {
+      "id": 1002,
+      "title": "庄河大苹果",
+      "description": "每袋 <em>50</em> 公斤，过年送礼必备。",
+      "price": 900,
+      "image": "static/images/red-apple.png",
+      "availableInventory": 5,
+      "rating": 1
+    },
+    {
+      "id": 1003,
+      "title": "桃子",
+      "description": "每盒 <em>10</em> 公斤，过年送礼必备。",
+      "price": 1200,
+      "image": "static/images/peach.png",
+      "availableInventory": 10,
+      "rating": 4
+    },
+    {
+      "id": 1004,
+      "title": "新疆哈密瓜",
+      "description": "每袋 <em>200</em> 公斤，过年送礼必备。",
+      "price": 1500,
+      "image": "static/images/melon.png",
+      "availableInventory": 15,
+      "rating": 5
+    },
+    {
+      "id": 1005,
+      "title": "海南大椰子",
+      "description": "每袋 <em>500</em> 公斤，过年送礼必备。",
+      "price": 1200,
+      "image": "static/images/coconut.png",
+      "availableInventory": 9,
+      "rating": 3
+    },
+    {
+      "id": 1006,
+      "title": "丹东草莓",
+      "description": "每盒 <em>2</em> 公斤，过年送礼必备。",
+      "price": 20,
+      "image": "static/images/strawberry.png",
+      "availableInventory": 8,
+      "rating": 4
+    }
+  ]
+}
