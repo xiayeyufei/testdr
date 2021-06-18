@@ -2,10 +2,12 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import axios from 'axios'
+import store  from './store';
 import {
   BootstrapVue,
   IconsPlugin
 } from 'bootstrap-vue'
+
 require('./assets/app.css')
 
 Vue.config.productionTip = false
@@ -22,6 +24,7 @@ import 'bootstrap-vue/dist/bootstrap-vue-icons.js'
 new Vue({
   el: '#app',
   router,
+  store,
   components: {
     App
   },

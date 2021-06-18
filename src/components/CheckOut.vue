@@ -87,9 +87,9 @@
 import CHeader from './Header.vue';
 export default {
   name: 'CheckOut',
-  // props: ['cart'],
   data() {
     return {
+      cart : [],
       states: {
         LN: '辽宁省',
         JL: '吉林省',
@@ -122,6 +122,12 @@ export default {
       alert(this.cart + ' ' + '订购成功!');
     }
   },
+  created: function() {
+    let thatCart = this.cart;
+    localStorage.getItem("cart").split(",").forEach(function(e){
+      thatCart.push(e);
+    });
+  }
 }
 </script>
 <style scoped>
